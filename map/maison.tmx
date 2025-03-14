@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="10" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="14">
+ <tileset firstgid="1" source="house2.tsx"/>
+ <layer id="1" name="sol" width="10" height="5">
+  <data encoding="csv">
+302,302,302,302,302,302,302,302,302,302,
+302,302,302,302,302,302,302,302,302,302,
+302,302,302,302,302,302,302,302,302,302,
+302,302,302,302,302,302,302,302,302,302,
+302,302,302,302,302,302,302,302,302,302
+</data>
+ </layer>
+ <layer id="4" name="mur" width="10" height="5">
+  <data encoding="csv">
+292,292,292,292,292,292,292,292,292,292,
+0,0,0,0,0,0,0,0,0,0,
+0,0,479,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="mobilier1" width="10" height="5">
+  <data encoding="csv">
+450,451,452,0,0,395,396,397,400,401,
+481,482,483,449,0,426,427,428,431,432,
+512,513,514,480,0,0,0,356,0,0,
+0,0,0,0,0,0,0,387,388,389,
+0,0,495,496,0,0,0,418,419,420
+</data>
+ </layer>
+ <layer id="6" name="rien" width="10" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="mobilier2" width="10" height="5">
+  <data encoding="csv">
+0,0,0,392,393,394,0,398,399,0,
+0,0,0,423,424,425,0,429,430,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="premier plan" width="10" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,357,358,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="object">
+  <object id="1" name="tp_outside" x="33.6468" y="81.64" width="28.4129" height="2.61698"/>
+  <object id="3" name="spawn_inside" x="32.5253" y="43.27">
+   <point/>
+  </object>
+  <object id="4" name="spawn" x="97.44" y="29.1606">
+   <point/>
+  </object>
+  <object id="5" type="collision" x="127.484" y="44.1147" width="26.9175" height="27.6652"/>
+  <object id="6" type="collision" x="64.3028" y="2.24312" width="91.2203" height="23.5528"/>
+  <object id="7" type="collision" x="12.711" y="10.8418" width="44.8624" height="29.1606"/>
+  <object id="9" type="collision" x="-16" y="0" width="16" height="80"/>
+  <object id="11" type="collision" x="160" y="0" width="16" height="80"/>
+  <object id="12" type="collision" x="-16" y="80" width="41.7959" height="15.7065"/>
+  <object id="13" type="collision" x="69.1629" y="79.6308" width="91.968" height="14.9541"/>
+ </objectgroup>
+</map>
